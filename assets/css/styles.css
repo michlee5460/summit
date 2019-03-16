@@ -1,0 +1,65 @@
+/* General Styles
+
+Colors
+@highlight: #196E76
+@text: #4A4A4A;
+@text-light: #9A9A9A
+@body-background: #EEEEEE; */
+*, *:before, *:after { box-sizing: inherit; margin: 0; padding: 0; }
+
+html {
+    box-sizing: border-box;
+    background: #fafafa;
+    text-align: center; }
+
+body {
+    font-size: 1em;
+    line-height: 1.5;
+    font-family: Lucida Grande, sans-serif;
+    max-width: 43.75em;/* 880/16 */
+    margin: auto;
+    padding: 150px 0;
+    color: #4A4A4A; }
+
+img {
+    max-width: 50%;
+    height: auto;
+    padding 0;
+    margins 0; }
+
+a {
+    color: inherit; }
+
+h1 {
+    font-family: 'Montserrat', serif;
+    font-size: 3em; 
+    margin: 0em 0 0em;
+    color: #1f4287; }
+
+p {
+    margin-top: 0em;
+    line-height: 0px;
+    font-size: .875em; /* 14/16 */
+    margin: 1em 0 2em;
+    color: #1f4287; }
+
+input{
+    width: 100%;
+    display: block;
+    background-color: #FAFAFA;
+    font-size: 1em;
+    padding: .625em 1.5em;
+    line-height: 1.5;
+    margin: 0;
+    border: 1px solid #DFE1E4;
+    border-radius: 30px;
+    position: relative; }
+
+input:focus {
+    outline: none;
+    background-color: #FAFAFA;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1); }
+
+::placeholder { 
+  color: #CDCDCD;
+}
