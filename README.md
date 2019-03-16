@@ -1,2 +1,2 @@
 # summit
-This is a repository for my Capital One Summit coding challenge.
+This is my repository for the 2019 Capital One Summit coding challenge.
