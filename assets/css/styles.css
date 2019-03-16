@@ -37,7 +37,7 @@ p {
 input{
     width: 100%;
     display: block;
-    background-color: #FAFAFA;
+    background-color: #FFFFFF;
     font-size: 1em;
     padding: .625em 1.5em;
     line-height: 1.5;
@@ -48,7 +48,7 @@ input{
 
 input:focus {
     outline: none;
-    background-color: #FAFAFA;
+    background-color: #FFFFFF;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .1); }
 
 ::placeholder { 
