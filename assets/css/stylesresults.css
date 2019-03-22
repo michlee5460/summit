@@ -1,0 +1,171 @@
+html {
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  margin: 10px 0px 20px;
+  color: #0B3D91;
+}
+
+br {
+  line-height: -10px;
+}
+
+.searchspan {
+  color: #6E6E6E;
+}
+
+button{
+  color: #6E6E6E;
+  font-size: .9em;
+  border-radius: 30px;
+  border: 1.25px solid #DFE1E4;
+  padding: .625em 1em;
+  margin-left: 15px;
+}
+
+button:hover{
+  box-shadow: 0 2px 4px #C8C8C8;
+}
+
+button:focus{
+  outline: none;
+}
+
+button:active{
+  background-color: #DBDBDB;
+  box-shadow: 0 0px;
+}
+
+.row {
+  margin: 15px 0px;
+}
+
+#searchBar {
+  width: 600px;
+  background-color: #FFFFFF;
+  padding: .625em 2.5em;
+  display: inline-block;
+  border: 1.25px solid #DFE1E4;
+  border-radius: 30px;
+  margin: 20px 0px;
+  background-image: url('img/search.png');
+  background-position: 10px 8px;
+  background-size: 20px;
+  background-repeat: no-repeat;
+}
+
+#searchBar:hover{
+  box-shadow: 0 2px 4px #C8C8C8;
+}
+
+#searchBar:focus {
+  outline: none;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 4px #C8C8C8;
+}
+
+#searchBar::-webkit-input-placeholder {
+    color: #CDCDCD;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.dateRange{
+  width: 150px;
+  background-color: #FFFFFF;
+  padding: .625em 1em;
+  display: inline-block;
+  border: 1.25px solid #DFE1E4;
+  border-radius: 30px;
+  margin: 0px 7.5px;
+}
+
+.dateRange:hover{
+  box-shadow: 0 2px 4px #C8C8C8;
+}
+
+.dateRange:focus {
+  outline: none;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 4px #C8C8C8;
+}
+
+.dateRange::-webkit-input-placeholder {
+    color: #CDCDCD;
+    font-family: 'Helvetica', sans-serif;
+}
+
+#location{
+  width: 400px;
+  background-color: #FFFFFF;
+  padding: .625em 1em;
+  display: inline-block;
+  border: 1.25px solid #DFE1E4;
+  border-radius: 30px;
+  margin: 20px 7.5px;
+}
+
+#location:hover{
+  box-shadow: 0 2px 4px #C8C8C8;
+}
+
+#location:focus {
+  outline: none;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 4px #C8C8C8;
+}
+
+#location::-webkit-input-placeholder {
+    color: #CDCDCD;
+    font-family: 'Helvetica', sans-serif;
+}
+
+#logo {
+  height: 80px;
+  width: auto;
+  float: left;
+}
+
+.resultImg {
+  width: 100%;
+}
+
+#errorMsg{
+  font-size: 1.25em;
+  text-align: center;
+}
+
+#resultMsg {
+  font-size: 1.25em;
+}
+
+.results {
+  margin: 125px 15px 15px 15px;
+  -webkit-transition: width 2s, height 4s;
+}
+
+#navBar {
+  box-shadow: 0 2px 4px #C8C8C8;
+  width: 100%;
+  top: 0;
+  background-color: #FFFFFF;
+  position: fixed;
+  overflow: hidden;
+}
+
+.restitle {
+  margin-bottom: 30px;
+  font-weight: 900;
+}
+
+.restitlewithloc {
+  margin-bottom: 0px;
+  font-weight: 900;
+}
+
+.reslocation {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
