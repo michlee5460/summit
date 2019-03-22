@@ -107,6 +107,8 @@ $(document).ready(function() {
           }
           x++;
         }
+        if (x == 0) $("#errorMsg").append("No images match the search parameters. " +
+          "Please try again.");
       }
     });
 
