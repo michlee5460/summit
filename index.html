@@ -1,20 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 
 <head>
-    <title>NASA Images</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Roboto">
-    <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+  <meta charset="UTF-8">
+  <title>NASA Image Search</title>
+  <link rel="icon" href="assets/img/nasalogosquare.png"
+  <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/stylesindex.css">
 </head>
 
 <body>
 
-<img src="assets/img/nasa.png" alt="NASA">
-<h1>Image Search</h1>
-<p>Enter a keyword to search NASA's library of images.</p>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <img id="logo" src="assets/img/nasalogo.png" alt="NASA">
 
-<form action="results.html">
-	<input placeholder="Search">
-</form>
+      <h1>Image Search</h1>
+      <p>Enter a keyword to search NASA's library of images.</p>
+
+      <form action="results.html" method="GET">
+      	<input id="searchBar" type="text" placeholder="Search" name="search">
+      </form>
+    </div>
+  </div>
+</div>
 
 </body>
